@@ -1,11 +1,11 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "data": {"url": "https://github.com/claire-obrien/assignment3is445.git"},
+  "data": {"url": "https://raw.githubusercontent.com/claire-obrien/assignment3is445/main/building_inventory.csv"},
   "mark": "bar",
   "encoding": {
     "x": {
       "bin": true,
-      "field": "Year Acquired",
+      "field": "Congress Dist",
       "type": "quantitative"
     },
     "y": {
